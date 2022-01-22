@@ -43,3 +43,6 @@ button1 {
     border: thin solid black;
     border-top: thick solid green;
 }
+span.quantity {
+    font-weight: 700;
+}
