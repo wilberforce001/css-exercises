@@ -1,0 +1,21 @@
+h1 {
+    background-color: cornflowerblue;
+    color: white;
+    border:red;
+    border-top: thick solid saddlebrown;
+}
+h2 {
+    color: sienna;
+    border: thin solid green;
+    border-top: thick solid sienna;
+}
+ul, ol {
+    padding-left: 4em;
+}
+#note {
+    color: red;
+}
+.addition {
+    font-family: cursive;
+    color: orangered;
+}
