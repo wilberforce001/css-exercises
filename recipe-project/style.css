@@ -2,7 +2,7 @@ h1 {
     color: orange;
     text-align: left;
     font-size: 40px;
-    background-color: green;
+    background-color: rgb(17, 100, 17);
     text-align: left;
     border-top: thick solid grey;
 }
@@ -33,4 +33,13 @@ ul {
 p#servings {
     font-style: italic;
     font-weight: 700;
+}
+button1 {
+    background-color: grey;
+    font-family: cursive;
+}
+.button1,
+.button2 {
+    border: thin solid black;
+    border-top: thick solid green;
 }
