@@ -13,9 +13,18 @@ ul, ol {
     padding-left: 4em;
 }
 #note {
-    color: red;
+    color: #888;
 }
 .addition {
     font-family: cursive;
     color: orangered;
+    padding-left: 4em;
+}
+body {
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.4;
+    color: #222;
+}
+.quantity {
+    font-weight: bold;
 }
