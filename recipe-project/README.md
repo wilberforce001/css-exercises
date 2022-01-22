@@ -1,0 +1,1 @@
+Finished the Recipe Project by styling it using some CSS components such as color, background color, typography properties, etc.
