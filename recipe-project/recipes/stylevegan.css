@@ -1,0 +1,33 @@
+h1 {
+    background-color: green;
+    color: orange;
+    border: grey;
+    border-top: thick solid red;
+}
+h2 {
+    color: green;
+    border: thin solid goldenrod;
+    border-top: thick solid green;
+}
+body {
+    font-family: "Helvetica", sans-serif;
+    color: #222;
+    line-height: 1.4;
+}
+ul, ol {
+    padding-left: 4em;
+}
+ul {
+    list-style-type: circle;
+}
+span.quantity {
+    font-weight: 700;
+}
+.choice {
+    color: orangered;
+    font-family: cursive;
+}
+#optional #quantity {
+    color: #888;
+    list-style-type: disc;
+}
