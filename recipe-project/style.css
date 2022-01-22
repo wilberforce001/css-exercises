@@ -4,6 +4,7 @@ h1 {
     font-size: 40px;
     background-color: green;
     text-align: left;
+    border-top: thick solid grey;
 }
 img {
     text-align: center;
@@ -15,6 +16,8 @@ h2 {
 }
 h3 {
     color: green;
+    border: thin solid goldenrod;
+    border-top: thick solid green;
 }
 body {
     font-family: "Helvetica", sans-serif;
@@ -23,4 +26,11 @@ body {
 }
 ul, ol {
     padding-left: 4em;
+}
+ul {
+    list-style-type: square;
+}
+p#servings {
+    font-style: italic;
+    font-weight: 700;
 }
