@@ -1,0 +1,25 @@
+.one,
+.three {
+    padding: 32px;
+    background-color: burlywood;
+}
+.one {
+    border: 3px solid purple;
+    background-color: pink;
+    margin: 12px;
+}
+#two {
+    background-color: lightgreen;
+    border: 3px solid blueviolet;
+    margin-bottom: 48px;
+}
+.three {
+    border: 3px solid brown;
+    margin: 48px;
+    width: 200px;
+    margin-left: auto;
+}
+body {
+    margin: auto;
+    max-width: 600px;
+}
