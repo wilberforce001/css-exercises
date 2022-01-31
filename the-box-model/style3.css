@@ -6,3 +6,9 @@ div {
     color: red;
     border: 1px solid black;
 }
+span.box {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
