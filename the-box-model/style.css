@@ -1,8 +1,20 @@
+* {
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 130px;
+    box-sizing: border-box;
+
+}
 .one {
     background-color: green;
     color: orange;
+    border: 20px solid purple;
 }
 #two {
     background-color: grey;
     color: white;
+    font-size: 25px;
+    border: 20px solid lightskyblue;
 }
