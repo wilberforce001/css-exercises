@@ -1,0 +1,26 @@
+.card,
+.content,
+.connect,
+.button {
+    background-color:rgb(190, 220, 238);
+    border: 8px solid burlywood;
+}
+.card {
+    font-weight: bold;
+    padding: px;
+    margin: 20px;
+    border: 8px solid burlywood;
+}
+.content {
+    margin: 20px;
+}
+.connect {
+    margin: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    border: 8px solid burlywood;
+}
+.button {
+    margin-left: 200px;
+    border: red;
+}
