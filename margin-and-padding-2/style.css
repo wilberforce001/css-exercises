@@ -1,26 +1,36 @@
-.card,
-.content,
-.connect,
-.button {
-    background-color:rgb(190, 220, 238);
-    border: 8px solid burlywood;
+body {
+    background: #eee;
+    font-family: sans-serif;
 }
-.card {
-    font-weight: bold;
-    padding: px;
-    margin: 20px;
-    border: 8px solid burlywood;
+.title {
+    background: #e3f4ff;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 0px;
 }
 .content {
-    margin: 20px;
+    background: #e3f4ff;
+    border-top: 16px solid #eee;
+    border-bottom: 16px solid #eee;
+    padding: 16px 8px;
+    margin-bottom: 8px;
 }
 .connect {
-    margin: 10px;
-    padding: 10px;
-    margin-left: 200px;
-    border: 8px solid burlywood;
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
 }
-.button {
-    margin-left: 200px;
-    border: red;
+button {
+    background: white;
+    border: 1px solid #eee;
+    display: block;
+    margin: 0px;
+    padding: 8px 24px;
+    text-align: center;
+}
+.card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
 }
