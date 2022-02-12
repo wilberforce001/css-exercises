@@ -1,0 +1,34 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+.card {
+    padding: 8px;
+    background: #fff;
+    margin: 16px auto;
+    width: 400px;
+}
+.title {
+    background: #e3f4ff;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 0px;
+}
+.content {
+    background: #e3f4ff;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+}
+.connect {
+    background: #e3f4ff;
+    text-align: center;
+    padding: 8px;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 8px 24px;
+    background: white;
+    border: 1px solid #eee;
+}
