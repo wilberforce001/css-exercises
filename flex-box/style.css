@@ -2,4 +2,12 @@
     background: peachpuff;
     border: 4px solid brown;
     height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+}
+.flex-container {
+    display: flex;
+}
+.flex-container .two {
+    flex-shrink: 0;
 }
