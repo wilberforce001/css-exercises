@@ -1,35 +1,47 @@
-.container {
-    background: lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px;
+body {
+    background-color: #eee;
+    font-family: Besley, serif;
     margin: 0;
 }
-.logo {
+.container {
     background-color: white;
-    color: purple;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.profile-image {
+    background-color: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0.5);
+}
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
     font-weight: 900;
     font-style: italic;
-    padding: 4px;
-}
-ul {
-    background-color: white;
-    color: purple;
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    gap: 16px;
-}
-a {
-    font-size: 22px;
 }
 button {
     background-color: rebeccapurple;
-    display: flex;
-}
-button1 {
-    background-color: rebeccapurple;
-    display: flex;
     color: white;
+    padding: 8px 24px; 
+    border-radius: 8px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+.left-links, .right-links
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
