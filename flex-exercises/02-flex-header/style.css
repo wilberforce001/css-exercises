@@ -1,0 +1,24 @@
+.container {
+    background:lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 900px;
+}
+.item {
+    font-weight: bold;
+    align-items: center;
+    color: darkviolet;
+    background-color: white;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+}
+.logo {
+    font-weight: bold;
+    color: maroon;
+    background-color: white;
+    font-size: 40px;
+    padding: 20px;
+}
