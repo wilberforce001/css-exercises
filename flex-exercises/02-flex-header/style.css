@@ -1,24 +1,30 @@
 .container {
-    background:lightsalmon;
+    font-family: monospace;
+    background: papayawhip;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    width: 900px;
 }
-.item {
-    font-weight: bold;
-    align-items: center;
-    color: darkviolet;
-    background-color: white;
-    padding: 10px;
-    margin: 30px;
-    font-size: 15px;
+ul {
+    list-style-type: none;
+    /* this reomoves the dots on the list items*/
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
 .logo {
-    font-weight: bold;
-    color: maroon;
-    background-color: white;
-    font-size: 40px;
-    padding: 20px;
+    background: white;
+    font-weight: 900;
+    font-size: 48px;
+    color: tomato;
+    padding: 4px 32px;
+}
+a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    text-decoration: none;
+    /* this removes the line under the links*/
 }
