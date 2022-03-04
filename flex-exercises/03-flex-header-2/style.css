@@ -1,16 +1,35 @@
 .container {
-    background-color: lightgray;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0;
 }
 .logo {
     background-color: white;
     color: purple;
     font-weight: 900;
+    font-style: italic;
+    padding: 4px;
 }
 ul {
     background-color: white;
     color: purple;
     list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 16px;
 }
 a {
     font-size: 22px;
+}
+button {
+    background-color: rebeccapurple;
+    display: flex;
+}
+button1 {
+    background-color: rebeccapurple;
+    display: flex;
+    color: white;
 }
