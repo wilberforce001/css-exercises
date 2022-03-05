@@ -6,7 +6,7 @@ img {
     height: 100px;
     width: 100px;
 }
-.header {
+.title {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
@@ -14,8 +14,8 @@ img {
 .container {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 52px;
 }
-.items {
+.info {
     max-width: 200px;
 }
