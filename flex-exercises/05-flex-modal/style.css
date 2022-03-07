@@ -1,0 +1,24 @@
+body {
+    background-color: darkgray;
+}
+.container {
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 200px;
+    display: flex;
+    align-items: center;
+}
+.exclamation {
+    color: rgb(52, 22, 245);
+    font-weight: 900;
+    font-size: 36px;
+    justify-content: flex-end;
+}
+.warning {
+    font-weight: 900;
+    text-align: center;
+}
+.buttons.button1 {
+    color: white;
+    background: blue;
+}
