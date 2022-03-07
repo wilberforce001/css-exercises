@@ -1,24 +1,73 @@
-body {
-    background-color: darkgray;
+html, body {
+    height: 100%;
 }
-.container {
-    background-color: #eee;
-    border-radius: 10px;
-    margin: 200px;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #aaa;
+    color: #333;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.modal {
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
 }
 .exclamation {
-    color: rgb(52, 22, 245);
-    font-weight: 900;
-    font-size: 36px;
-    justify-content: flex-end;
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close {
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+button.Continue {
+    background: royalblue;
+    border: 1px solid #ddd;
+    color: white;
+}
+button.Cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+.exclamation {
+    flex-shrink: 0;
 }
 .warning {
-    font-weight: 900;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
-.buttons.button1 {
-    color: white;
-    background: blue;
+.message {
+    margin-bottom: 16px;
 }
