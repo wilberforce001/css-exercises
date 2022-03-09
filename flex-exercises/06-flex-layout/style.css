@@ -4,3 +4,31 @@ li {
 .right-items {
     text-align: right;
 }
+.header, 
+.footer {
+    background-color: #eeeeee;
+}
+img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0px;
+}
+button {
+    color: black;
+    background-color: #eeeeee;
+}
+.items {
+    text-align: center;
+}
+.two, 
+.three {
+    border-radius: 8px;
+    padding: 8px;
+}
+.one {
+    padding: 15px 200px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+}
