@@ -1,10 +1,4 @@
-li {
-    display: inline-block;
-}
-.right-items {
-    text-align: right;
-}
-.header, 
+
 .footer {
     background-color: #eeeeee;
 }
@@ -31,4 +25,17 @@ button {
     border-radius: 15px;
     background-color: white;
     border: 1px solid gray;
+}
+li {
+    display: inline-block;
+}
+.profile, 
+.settings {
+    float: right;
+    padding: 8px;
+}
+.about, 
+.store {
+    float: left;
+    padding: 8px;
 }
