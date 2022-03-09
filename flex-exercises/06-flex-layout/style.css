@@ -1,3 +1,10 @@
+.footer {
+    background-color: #eeeeee;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
 img {
     height: 200px;
     width: 200px;
@@ -22,9 +29,6 @@ button {
     background-color: white;
     border: 1px solid gray;
 }
-li {
-    display: inline-block;
-}
 .profile, 
 .settings {
     float: right;
@@ -35,13 +39,14 @@ li {
     float: left;
     padding: 8px;
 }
-.terms, 
-.privacy {
-    float: right;
-    padding: 8px;
-}
 .advert, 
 .business {
     float: left;
+    padding: 8px;
+}
+/*causes an interchange in the right items and a disapearnace of the background color*/
+.terms, 
+.privacy {
+    float: right;
     padding: 8px;
 }
