@@ -1,5 +1,9 @@
-.footer {
-    background-color: #eeeeee;
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}.footer {
+    background-color: #eee;
 }
 li {
     display: inline-block;
@@ -12,7 +16,10 @@ img {
 }
 button {
     color: black;
-    background-color: #eeeeee;
+    background-color: #eee;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
 }
 .items {
     text-align: center;
@@ -23,11 +30,12 @@ button {
     padding: 8px;
 }
 .one {
-    padding: 15px 200px;
-    margin-bottom: 8px;
-    border-radius: 15px;
+    padding: 8px 24px;
+    margin-bottom: 16px;
+    border-radius: 16px;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid #ddd;
+    width: 400px;
 }
 .profile, 
 .settings {
