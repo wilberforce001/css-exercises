@@ -2,6 +2,8 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }.footer {
     background-color: #eee;
 }
@@ -23,11 +25,16 @@ button {
 }
 .items {
     text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .two, 
 .three {
     border-radius: 8px;
-    padding: 8px;
+    padding: 8px 16px;
 }
 .one {
     padding: 8px 24px;
@@ -36,25 +43,9 @@ button {
     background-color: white;
     border: 1px solid #ddd;
     width: 400px;
-}
-.profile, 
-.settings {
-    float: right;
-    padding: 8px;
-}
-.about, 
-.store {
-    float: left;
-    padding: 8px;
-}
-.advert, 
-.business {
-    float: left;
-    padding: 8px;
-}
-/*causes an interchange in the right items and a disapearnace of the background color*/
-.terms, 
-.privacy {
-    float: right;
-    padding: 8px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
